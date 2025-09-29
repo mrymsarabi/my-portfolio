@@ -21,8 +21,9 @@ const SkillsSection: React.FC = () => {
           <ul>
             <li className="font-bold text-neon">React & React Hooks</li>
             <li>Next.js (SSG/SSR)</li>
-            <li>Vue.js / Nuxt.js</li>
-            <li>Redux & Zustand</li>
+            <li>Redux 
+                {/* & Zustand */}
+            </li>
           </ul>
         </div>
 
@@ -31,7 +32,7 @@ const SkillsSection: React.FC = () => {
           <ul>
             <li>Git & GitHub Workflow</li>
             <li>Tailwind CSS / Styled Components</li>
-            <li>Jest & React Testing Library (RTL)</li>
+            {/* <li>Jest & React Testing Library (RTL)</li> */}
             <li>Web performance optimization</li>
           </ul>
         </div>

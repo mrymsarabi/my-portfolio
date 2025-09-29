@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => {
     <section id="hero" className="container mx-auto px-6 h-screen flex flex-col justify-center">
       <p className="font-mono text-lg text-gray-400">&gt; Hello, I'm</p>
       <h1 className="text-5xl md:text-7xl font-mono text-neon">
-        [Your Name]
+        Maryam Tarbiat Sarabi
       </h1>
       <h2 className="text-2xl md:text-4xl font-sans text-gray-200 mt-2 mb-8">
         A React Specialist building{' '}
@@ -16,10 +16,10 @@ const HeroSection: React.FC = () => {
         <a href="#projects" className="cta-button">
           View Projects
         </a>
-        <a href="https://github.com/yourusername" target="_blank" className="cta-button-secondary">
+        <a href="https://github.com/mrymsarabi" target="_blank" className="cta-button-secondary">
           Code: GitHub
         </a>
-        <a href="mailto:your.email@example.com" className="cta-button-secondary">
+        <a href="mrymsarabi@gmail.com" className="cta-button-secondary">
           Contact: Email
         </a>
       </div>

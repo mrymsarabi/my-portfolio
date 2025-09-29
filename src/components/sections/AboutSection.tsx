@@ -11,7 +11,7 @@ const AboutSection: React.FC = () => {
           className="rounded-full border-4 border-neon mb-6 mx-auto"
         />
         <p className="text-gray-300 mb-4">
-          I'm a passionate front-end developer based in **[Your City]**, specializing in turning complex challenges into simple, beautiful, and highly accessible user interfaces. I live by the philosophy that good code should be as clean and maintainable as the design is elegant.
+          I'm a passionate front-end developer based in Tehran, Iran; specializing in turning complex challenges into simple, beautiful, and highly accessible user interfaces. I live by the philosophy that good code should be as clean and maintainable as the design is elegant.
         </p>
         <p className="text-gray-300 mb-8">
           I'm constantly exploring new tools to push the limits of web performance. Currently looking for opportunities to build the next generation of web applications.
