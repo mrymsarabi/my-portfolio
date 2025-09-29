@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -23,4 +23,55 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+@import "tailwindcss";
+
+/* --- CUSTOM LAYERS START HERE --- */
+@layer base {
+  :root {
+    --font-mono: 'Fira Code', 'JetBrains Mono', monospace;
+    --font-sans: 'Inter', sans-serif;
+  }
+
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .cta-button {
+    @apply font-mono px-4 py-2 border-2 border-neon text-gray-900 bg-neon 
+           transition-all duration-300 
+           hover:bg-transparent hover:text-neon hover:shadow-neon;
+  }
+
+  .cta-button-secondary {
+    @apply font-mono px-4 py-2 border-2 border-neon text-neon bg-transparent 
+           transition-all duration-300 
+           hover:bg-neon hover:text-gray-900 hover:shadow-neon;
+  }
+
+  .section-title {
+    @apply font-mono text-3xl text-neon border-b-2 border-neon pb-2 mb-10;
+  }
+
+  .skill-card {
+    @apply bg-gray-800 p-6 border-l-4 border-neon shadow-lg 
+           transition-all duration-300 
+           hover:translate-y-[-5px] hover:shadow-2xl hover:shadow-neon/40;
+  }
+
+  .skill-title {
+    @apply text-xl text-white mb-4;
+  }
+
+  .skill-card ul {
+    @apply list-none p-0;
+  }
+
+  .skill-card ul li {
+    @apply font-mono relative pl-4 mb-2 
+           before:content-['✓'] before:absolute before:left-0 before:text-neon;
+  }
 }
